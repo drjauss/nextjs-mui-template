@@ -1,9 +1,9 @@
-import { Box, Container } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 
 const Profile = () => (
   <Box>
     <Container>
-      <h3>M&oacute;dulo de Perfil</h3>
+      <Typography variant="h5" my="8px">M&oacute;dulo de Perfil</Typography>
     </Container>
   </Box>
 );
