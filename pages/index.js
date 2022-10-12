@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import Achievements from "../modules/achievements";
 import Experience from "../modules/experience";
+import Profile from "../modules/profile";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Profile />
         <Experience />
         <Achievements />
       </main>
