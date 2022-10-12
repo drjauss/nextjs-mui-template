@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import Achievements from "../modules/achievements";
+import Experience from "../modules/experience";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <Experience />
         <Achievements />
       </main>
     </div>

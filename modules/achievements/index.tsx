@@ -6,8 +6,8 @@ const achievementCards = [<AchievementCard />];
 
 const Achievements = () => (
   <Box>
-    <h1>Achievements Module</h1>
     <Container>
+      <h3>M&oacute;dulo de Logros</h3>
       <Box display="flex" flexDirection="row" gap="10px">
         {achievementCards.map((item, index) => (
           <div key={index}>{item}</div>

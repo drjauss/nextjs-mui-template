@@ -16,9 +16,15 @@ const darkTheme = createTheme({
   },
 });
 
+const lightTheme = createTheme({
+  palette: {
+    mode: "light",
+  },
+});
+
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={lightTheme}>
       <CssBaseline />
       <Component {...pageProps} />
     </ThemeProvider>
