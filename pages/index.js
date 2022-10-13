@@ -2,10 +2,6 @@ import Head from "next/head";
 
 import MainLayout from "@libs/layouts/MainLayout";
 
-import Achievements from "../modules/achievements";
-import Experience from "../modules/experience";
-import Profile from "../modules/profile";
-
 export default function Home() {
   return (
     <div>
@@ -15,11 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <MainLayout>
-          <Profile />
-          <Experience />
-          <Achievements />
-        </MainLayout>
+        <MainLayout></MainLayout>
       </main>
     </div>
   );
